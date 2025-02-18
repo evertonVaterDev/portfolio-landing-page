@@ -1,0 +1,27 @@
+.backgroundfooter {
+  width: 1110px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #33323d;
+}
+
+footer .navigation-item {
+  color: white;
+}
+
+.social-media {
+  margin-right: 20px;
+  width: 104px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}

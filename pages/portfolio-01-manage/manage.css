@@ -1,0 +1,90 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: auto;
+}
+
+aside {
+  width: 350px;
+  height: 498px;
+  margin-right: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  line-height: 30px;
+}
+
+aside h2 {
+  width: 350px;
+  height: 42px;
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+
+  text-align: left;
+}
+
+.main_section {
+  width: 1110px;
+  height: 1192px;
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 64px;
+  gap: 20px;
+  /* top: 805px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px; */
+}
+
+main img:first-child {
+  margin-bottom: 60px;
+}
+.main_previews {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carousel {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  padding: 30px;
+  width: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title_carousel {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.container_carousel {
+  display: flex;
+  gap: 10px;
+}
+
+.container_carousel img {
+  width: 15px;
+  height: 15px;
+  margin-top: 25px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+} /* 
+.carousel img {
+  margin-top: 115px;
+} */

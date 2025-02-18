@@ -1,0 +1,32 @@
+/* SEÇÃO MANAGE */
+.manage_Section {
+  width: 1015px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.manage_Section img {
+  margin-right: 125px;
+}
+
+.about-title {
+  width: 430px;
+  height: 42px;
+
+  font-size: 40px;
+  line-height: 42px;
+  color: #33323d;
+}
+.about {
+  display: flex;
+
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  line-height: 30px;
+}

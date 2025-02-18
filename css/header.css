@@ -1,0 +1,19 @@
+header {
+  width: 1111px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 58px;
+}
+
+.navigation-item {
+  margin-left: 38px;
+
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,98 @@
+/* Seção hero */
+.hero {
+  height: 600px;
+  background-image: url(../../assets/home/image-homepage-hero.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-size: cover;
+  background-position: center;
+
+  margin-bottom: 150px;
+}
+
+.hero_container {
+  width: 445px;
+  height: 357px;
+
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.hero p {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+
+  line-height: 50px;
+
+  color: #33323d;
+}
+
+.hero button {
+  width: 200px;
+  height: 48px;
+  font-family: "Public Sans";
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  background-color: #203a4c;
+  color: #ffffff;
+}
+
+.button_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  height: 48px;
+}
+
+.hero img {
+  height: 48px;
+  width: 48px;
+
+  background-color: #1d3444;
+}
+
+/* SEÇAO SOBRE */
+.sobre {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 1110px;
+  height: 600px;
+  align-items: center;
+  margin-bottom: 149px;
+}
+
+.sobre img {
+  margin-right: 140px;
+}
+
+.about {
+  width: 430px;
+  height: 502px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.about-title {
+  width: 430px;
+  height: 42px;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  line-height: 42px;
+  color: #33323d;
+}
